@@ -1,0 +1,228 @@
+<div class="wrapper"> 
+            <div class="form-box login">
+                <h2>login</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <input type="email"required>
+                        <label>E-mail</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="password"required>
+                        <label>Password</label>
+                    </div>
+                    <div class="rem-for">
+                        <label><input type="checkbox"> Remember me</label>
+                        <a href="#">Forgot password?</a>
+                    </div>
+                    <button type="submit"class="btn">Login</button>
+                    <div class="login-reg">
+                        <p>Don't have an account?  <a href="#" class="register-link">Register</a></p>
+                    </div>
+                </form>
+            </div>
+            <div class="form-box register">
+                <h2>Registration</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <input type="text"required>
+                        <label>Username</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="email"required>
+                        <label>E-mail</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="password"required>
+                        <label>Password</label>
+                    </div>
+                    <div class="rem-for">
+                        <label><input type="checkbox"> I agree to the terms & conditions</label>
+                    </div>
+                    <button type="submit"class="btn">Registration</button>
+                    <div class="login-reg">
+                        <p>Already have an account?  <a href="#" class="login-link">Log In</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="container">
+            <h1 class="heading">Science & Astronomy</h1>
+            <hr width="300px">
+            <div class="box-container">
+                <div class="box">
+                    <div class="image">
+                        <img src="jems.jpg" >
+                    </div>
+                    <div class="content">
+                        <h3>NASA's JAMES Webb space telescope</h3>
+                        <P>The James Webb Space Telescope is currently conducting infrared astronomy. As the largest optical telescope in space, it is equipped with high-resolution and high-sensitivity instruments, allowing it to view objects too old, distant, or faint for the Hubble Space Telescope.</P>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="moon.jpg" >
+                    </div>
+                    <div class="content">
+                        <h3>Lunar Eclips</h3>
+                        <P>Each lunar eclipse is visible from half of Earth. There are three different types of lunar eclipses: Moon at full size and appears red. Total lunar eclipse.</P>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                
+                <div class="box">
+                    <div class="image">
+                        <img src="jupiter.jpg" >
+                    </div>
+                    <div class="content">
+                        <h3>The case of the missing JUPITERS</h3>
+                        <P>A dearth of Jupiters suggests that potentially habitable, Earth-like planets might not readily emerge around red dwarf stars.Gas giant planets are a NO_SHOW around small red stars.</P>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="station.jpg" >
+                    </div>
+                    <div class="content">
+                        <h3>Space station</h3>
+                        <P>A spacecraft capable of supporting a human crew in orbit for an extended period of time and is therefore a type of space habitat. It lacks major propulsion or landing systems. An orbital station or an orbital space station is an artificial satellite.</P>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+
+                <div class="box">
+                    <div class="image">
+                        <img src="mars.PNG" >
+                    </div>
+                    <div class="content">
+                        <h3>8 cool destination that destination that future MARS tourists could explore</h3>
+                        <P>Touring Mars</P>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="signal.jpg" >
+                    </div>
+                    <div class="content">
+                        <h3>Alien signal beamed to Earth</h3>
+                        <P>An European Mars orbiter beamed a coded message to earth kiicking off a weeks-long project designed to help us prep for a real signal from ET. </P>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+
+                <div class="box">
+                    <div class="image">
+                        <img src="antenna.jpg" >
+                    </div>
+                    <div class="content">
+                        <h3>How would we decode a message from ET?New project will give us a trial run</h3>
+                        <P>A new project called 'A Sign in Space' will give scientists and laypeople around the world practice at decoding a message from intelligent aliens</P>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+
+        .footer{
+	background-color: #24262b;
+    padding: 70px 0;
+    margin:0;
+	padding:0;
+	box-sizing: border-box;
+    line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
